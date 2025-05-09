@@ -13,11 +13,7 @@ class Solution {
                 D--;
             }
         }
-        if(s.charAt(s.length()-1)=='D'){
-            res[s.length()] = res[s.length()-1]-1;
-        }else{
-            res[s.length()] = res[s.length()-1]+1;
-        }
+        res[s.length()] = D;
         return res;
     }
 }
